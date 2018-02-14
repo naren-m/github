@@ -1,4 +1,4 @@
-# Sample project for Behaviou-driven development and Continous Integration
+# Github Cli app to browse github repositories.
 
 ## References
 - [Code from Golang-Coach lessons](https://github.com/Golang-Coach/Lessons/tree/master/GoBDD)
