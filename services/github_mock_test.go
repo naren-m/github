@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	. "github.com/google/go-github/github"
-	"github.com/naren-m/github-cli/services/mocks"
+	"github.com/naren-m/github/services/mocks"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

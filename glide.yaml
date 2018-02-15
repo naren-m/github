@@ -1,0 +1,20 @@
+package: github.com/naren-m/github
+import:
+- package: github.com/google/go-github
+  version: v15.0.0
+  subpackages:
+  - github
+- package: github.com/mitchellh/go-homedir
+- package: github.com/spf13/cobra
+  version: v0.0.1
+- package: github.com/spf13/viper
+  version: v1.0.0
+- package: github.com/stretchr/testify
+  version: v1.2.1
+  subpackages:
+  - mock
+testImport:
+- package: github.com/smartystreets/goconvey
+  version: 1.6.3
+  subpackages:
+  - convey
