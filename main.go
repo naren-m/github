@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/naren-m/github/cmd"
+
 	"github.com/google/go-github/github"
 	"github.com/naren-m/github/services"
 )
@@ -22,5 +24,7 @@ func main() {
 	}
 
 	fmt.Printf("%+v\n", repo)
+
+	cmd.Execute()
 
 }
