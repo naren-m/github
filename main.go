@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/google/go-github/github"
-	"github.com/naren-m/github-cli/services"
+	"github.com/naren-m/github/services"
 )
 
 func main() {
